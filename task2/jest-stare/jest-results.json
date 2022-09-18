@@ -1,0 +1,289 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 1,
+  "numPassedTests": 5,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 5,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1663536189018,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1663536194707,
+        "runtime": 5569,
+        "slow": true,
+        "start": 1663536189138
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/mustafahameed/respondioTechTask/task2/__test__/BookingAPI.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Booking API Tests"
+          ],
+          "duration": 1057,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Booking API Tests Validate that the Create Booking API is creating booking and validating with Schema and status code is 200 ",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Validate that the Create Booking API is creating booking and validating with Schema and status code is 200 "
+        },
+        {
+          "ancestorTitles": [
+            "Booking API Tests"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Booking API Tests Validate that the Response contains what was provided",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Validate that the Response contains what was provided"
+        },
+        {
+          "ancestorTitles": [
+            "Booking API Tests"
+          ],
+          "duration": 1221,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Booking API Tests Validate that the request is not created if response body is empty and response is 500",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Validate that the request is not created if response body is empty and response is 500"
+        },
+        {
+          "ancestorTitles": [
+            "Booking API Tests"
+          ],
+          "duration": 873,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Booking API Tests Validate that the request is not created if request body is corrupted",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Validate that the request is not created if request body is corrupted"
+        },
+        {
+          "ancestorTitles": [
+            "Booking API Tests"
+          ],
+          "duration": 980,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Booking API Tests Validate that the request is not created if date format is not correct",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Validate that the request is not created if date format is not correct"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false,
+  "coverageMap": {
+    "/Users/mustafahameed/respondioTechTask/task2/base.js": {
+      "path": "/Users/mustafahameed/respondioTechTask/task2/base.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 16
+          },
+          "end": {
+            "line": 1,
+            "column": 36
+          }
+        },
+        "1": {
+          "start": {
+            "line": 2,
+            "column": 15
+          },
+          "end": {
+            "line": 2,
+            "column": 34
+          }
+        },
+        "2": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 40
+          }
+        },
+        "3": {
+          "start": {
+            "line": 4,
+            "column": 16
+          },
+          "end": {
+            "line": 4,
+            "column": 42
+          }
+        },
+        "4": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 9,
+            "column": 2
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "e0cacc30a4f7e3512798eed4e29a0836c553d338"
+    },
+    "/Users/mustafahameed/respondioTechTask/task2/config.js": {
+      "path": "/Users/mustafahameed/respondioTechTask/task2/config.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 17
+          },
+          "end": {
+            "line": 1,
+            "column": 55
+          }
+        },
+        "1": {
+          "start": {
+            "line": 2,
+            "column": 21
+          },
+          "end": {
+            "line": 8,
+            "column": 1
+          }
+        },
+        "2": {
+          "start": {
+            "line": 11,
+            "column": 0
+          },
+          "end": {
+            "line": 15,
+            "column": 1
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "0c1c206ebe8f5509326ffd60acb4ea6a0654a855"
+    },
+    "/Users/mustafahameed/respondioTechTask/task2/requestPayloads/createBookingAPI.js": {
+      "path": "/Users/mustafahameed/respondioTechTask/task2/requestPayloads/createBookingAPI.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 15
+          },
+          "end": {
+            "line": 1,
+            "column": 25
+          }
+        },
+        "1": {
+          "start": {
+            "line": 3,
+            "column": 23
+          },
+          "end": {
+            "line": 59,
+            "column": 1
+          }
+        },
+        "2": {
+          "start": {
+            "line": 62,
+            "column": 0
+          },
+          "end": {
+            "line": 65,
+            "column": 2
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "2d39aa3718b8bac65ed757c201679bc20d95c7ed"
+    }
+  }
+}

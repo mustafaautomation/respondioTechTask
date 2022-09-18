@@ -33,7 +33,7 @@
   "devDependencies": {
     "@actions/core": "latest",
     "@faker-js/faker": "^7.5.0",
-    "jest": "latest",
+    "jest": "^27.5.0",
     "jest-serial-runner": "latest",
     "jest-stare": "latest",
     "jsonschema": "latest",
