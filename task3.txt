@@ -1,0 +1,20 @@
+Task #3: Database Querying
+
+Query 1: 
+Q. Given the Contacts table below, write a SQL statement to get all contacts that have both email and phone values populated
+Answer:
+SELECT * FROM Contacts where email <> "" AND phone <> "";
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Query 2:
+Q. Given the Users table below, write a SQL statement to get the count of users per groupId
+Answer:
+SELECT groupID,COUNT(*) FROM Users GROUP BY groupID
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Query 3:
+Q. Given the `Customers` and `Orders` table below, write a SQL statement to get the `customerName`, `orderId` and `orderDate` in a single datasetQ
+Answer:
+Select Customers.customerName,Orders.orderId,Orders.orderDate from Customers Inner Join Orders ON Customers.id = Orders.customerId;

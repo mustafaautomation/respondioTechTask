@@ -1,0 +1,26 @@
+{
+  "name": "cypresscucumberpoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:runner": "cypress open",
+    "cypress:execution": "cypress run --browser electron "
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^12.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.2",
+    "chai": "^4.3.6",
+    "cypress": "^10.7.0",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.14.48",
+    "mocha": "^10.0.0",
+    "multiple-cucumber-html-reporter": "^1.21.4",
+    "playwright-webkit": "^1.25.2"
+  }
+}

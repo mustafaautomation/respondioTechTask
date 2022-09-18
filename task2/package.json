@@ -1,0 +1,43 @@
+{
+  "name": "task2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "jest": {
+    "verbose": true,
+    "testSequencer": "./testsequencer.js",
+    "coverageDirectory": "reports/",
+    "globalTeardown": "./test-teardown-globals.js",
+    "testRunner": "jest-jasmine2",
+    "coverageReporters": [
+      "html",
+      "text"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
+  "scripts": {
+    "test": "jest --reporters default jest-stare --coverage --detectOpenHandles  --testTimeout=600000 --verbose",
+    "test:watch": "jest --verbose --watchAll",
+    "test1": "jest --verbose "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@actions/core": "latest",
+    "@faker-js/faker": "^7.5.0",
+    "jest": "latest",
+    "jest-serial-runner": "latest",
+    "jest-stare": "latest",
+    "jsonschema": "latest",
+    "supertest": "latest",
+    "tunnel": "latest"
+  }
+}
